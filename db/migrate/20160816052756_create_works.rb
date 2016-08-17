@@ -8,7 +8,7 @@ class CreateWorks < ActiveRecord::Migration
       t.string :work5
       t.string :promise
       t.string :start
-      t.string :end
+      t.string :end_end
       t.integer :user_id
       t.timestamps null: false
     end

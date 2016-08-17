@@ -67,7 +67,7 @@ ActiveRecord::Schema.define(version: 20160816062356) do
     t.string   "work5"
     t.string   "promise"
     t.string   "start"
-    t.string   "end"
+    t.string   "end_end"
     t.integer  "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
