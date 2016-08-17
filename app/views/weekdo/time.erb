@@ -1,0 +1,12 @@
+<div class="container">
+    <% @show.each do |w| %>
+        <div class="well">
+            <p>사용자의 닉네임 : <%= w.user.name %></p>
+            <p>첫 번째 할 일 : <%= w.work1 %></p>
+            <p>두 번째 할 일 : <%= w.work2 %></p>
+            <p>세 번째 할 일 : <%= w.work3 %></p>
+            <p>네 번째 할 일 : <%= w.work4 %></p>
+            <p>다섯 번째 할 일 : <%= w.work5 %></p>
+        </div>
+    <% end %>
+</div>
